@@ -15,7 +15,7 @@ public class TestArrayTri {
 		
 		/*
 		 * Faire un algorithme qui trie le tableau dans l’ordre ascendant
-		 */
+		 *
 		int buffer;	
 		for(int i=0; i < array.length; i++){  
 			for(int j=1; j < (array.length-i); j++){  
@@ -32,8 +32,19 @@ public class TestArrayTri {
 			System.out.print(array[i] + ", ");
 		}
 		System.out.println("]");
+		*/
 		
-
+		
+		/*
+		 * Utiliser la classe Arrays pour trier le tableau
+		 */
+		Arrays.sort(array);
+		
+		System.out.print("[");
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i] + ", ");
+		}
+		System.out.println("]");
 	}
 
 }
