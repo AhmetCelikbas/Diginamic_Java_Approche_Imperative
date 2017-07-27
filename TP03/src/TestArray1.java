@@ -56,8 +56,7 @@ public class TestArray1 {
 		 * Afficher le plus grand élément du tableau
 		 */
 		Arrays.sort(array);
-		System.out.println(array[0]);
-
+		System.out.println(array[array.length-1]);
 		
 	}
 
