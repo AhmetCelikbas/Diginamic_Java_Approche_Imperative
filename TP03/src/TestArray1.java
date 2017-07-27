@@ -25,11 +25,20 @@ public class TestArray1 {
 		
 		/*
 		 * Afficher l’ensemble des éléments dans l’ordre inverse du tableau :
-		 */
+		 *
 		for (int i = array.length-1; i > 0; i--) {
 			System.out.println(array[i]);
 		}
+		*/
 		
+		/*
+		 * Faire une boucle et un test de manière à n’afficher que les entiers supérieurs à 3
+		 */
+		for (int i = array.length-1; i > 0; i--) {
+			if(array[i] > 3) {
+				System.out.println(array[i]);
+			}
+		}
 	}
 
 }
