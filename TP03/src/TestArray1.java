@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 /**
 *
@@ -43,12 +44,21 @@ public class TestArray1 {
 		
 		/*
 		 * Faire une boucle qui affiche uniquement les entiers pairs
-		 */
+		 *
 		for (int i = array.length-1; i > 0; i--) {
 			if((array[i] % 2) == 0) {
 				System.out.println(array[i]);
 			}
 		}
+		*/
+		
+		/*
+		 * Afficher le plus grand élément du tableau
+		 */
+		Arrays.sort(array);
+		System.out.println(array[0]);
+
+		
 	}
 
 }
