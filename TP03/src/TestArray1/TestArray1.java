@@ -4,7 +4,7 @@ import java.util.Arrays;
 /**
 *
 *@author keylan
-* Classe TestArray1
+* Exercice 1 du TP03
 */
 public class TestArray1 {
 
