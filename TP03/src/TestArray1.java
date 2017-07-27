@@ -33,9 +33,19 @@ public class TestArray1 {
 		
 		/*
 		 * Faire une boucle et un test de manière à n’afficher que les entiers supérieurs à 3
-		 */
+		 *
 		for (int i = array.length-1; i > 0; i--) {
 			if(array[i] > 3) {
+				System.out.println(array[i]);
+			}
+		}
+		*/
+		
+		/*
+		 * Faire une boucle qui affiche uniquement les entiers pairs
+		 */
+		for (int i = array.length-1; i > 0; i--) {
+			if((array[i] % 2) == 0) {
 				System.out.println(array[i]);
 			}
 		}
